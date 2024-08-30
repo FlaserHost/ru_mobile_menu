@@ -1,0 +1,36 @@
+@media screen and (max-width: 768px) {
+    .demo-panel {
+        flex-wrap: wrap;
+        gap: 20px 0;
+    }
+
+    .demo-panel > span {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    .demo-panel > .mobile-menu-btn:first-of-type {
+        width: 100%;
+    }
+
+    .demo-panel > .mobile-menu-btn:last-of-type {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .main-categories,
+    .addition-categories {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-menu a:before {
+        transform: translateY(-51%);
+    }
+
+    .mobile-menu > h2 {
+        font-size: 33px;
+    }
+}
